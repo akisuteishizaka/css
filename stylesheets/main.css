@@ -9,7 +9,7 @@ body {
 /* container */
 #container {
 	margin: 0 auto;
-	width: 500px;
+	width: 70%;
 }
 
 /* header */
@@ -20,21 +20,28 @@ body {
 /* main */
 #main {
 	background: blue;
+	overflow: hidden;
 }
 
 /* main/left */
 #left {
 	background: #4CA8E5;
+	float: left;
+	width: 100px;
 }
 
 /* main/center*/
 #center {
 	background: #95F0B1;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 /* main/right */
 #right {
 	background: #FFADF3;
+	float: right;
+	width: 100px;
 }
 
 /* footer*/
