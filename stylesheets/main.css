@@ -1,0 +1,15 @@
+/* main.css */
+/* 2015-05-17 taiti */
+@charset "utf-8"
+
+#header{
+	background: #000;
+}
+
+#main {
+	background: blue;
+}
+
+#footer {
+	background: green;
+}
