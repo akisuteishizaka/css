@@ -15,26 +15,36 @@ body {
 /* header */
 #header{
 	background: #f00;
+	margin: 0 0 20px 0;
 }
 
 /* main */
 #main {
 	background: blue;
+	overflow: hidden;
+	margin: 50px 0 0 0;
 }
 
 /* main/left */
 #left {
 	background: #4CA8E5;
+	float: left;
+	width: 100px;
 }
 
 /* main/center*/
 #center {
 	background: #95F0B1;
+	float: left;
+	width: 280px;
+	margin: 0 10px 0 10px;
 }
 
 /* main/right */
 #right {
 	background: #FFADF3;
+	float: right;
+	width: 100px;
 }
 
 /* footer*/
