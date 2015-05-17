@@ -6,19 +6,38 @@ body {
 	margin: 0;
 }
 
+/* container */
 #container {
 	margin: 0 auto;
 	width: 500px;
 }
 
+/* header */
 #header{
 	background: #f00;
 }
 
+/* main */
 #main {
 	background: blue;
 }
 
+/* main/left */
+#left {
+	background: #4CA8E5;
+}
+
+/* main/center*/
+#center {
+	background: #95F0B1;
+}
+
+/* main/right */
+#right {
+	background: #FFADF3;
+}
+
+/* footer*/
 #footer {
-	background: green;
+	background: #4C6FBA;
 }
