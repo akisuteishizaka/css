@@ -2,8 +2,17 @@
 /* 2015-05-17 taiti */
 @charset "utf-8"
 
+body {
+	margin: 0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 500px;
+}
+
 #header{
-	background: #000;
+	background: #f00;
 }
 
 #main {
