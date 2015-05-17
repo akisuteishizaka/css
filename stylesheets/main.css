@@ -8,17 +8,34 @@ body {
 
 #container {
 	margin: 0 auto;
-	width: 500px;
+	width: 600px;
 }
 
+/* header */
 #header{
 	background: #f00;
 }
 
+/* main */
 #main {
 	background: blue;
+	overflow: hidden;
 }
 
+/* main/left */
+#left {
+	background: #9933FF;
+	float: left;
+	width: 200px;
+}
+
+/* main/right */
+#right {
+	background: #FFCCFF;
+	margin-left: 200px;
+}
+
+/* footer */
 #footer {
 	background: green;
 }
