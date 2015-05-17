@@ -8,7 +8,7 @@ body {
 
 #container {
 	margin: 0 auto;
-	width: 500px;
+		width: 500px;
 }
 
 #header{
@@ -17,6 +17,20 @@ body {
 
 #main {
 	background: blue;
+	overflow: hidden;
+}
+
+/* main/left */
+#left {
+	background: #9933FF;
+	float: left;
+	width: 200px;
+}
+
+/* main/right */
+#right {
+	background: #CC00CC;
+	margin-left: 210px;
 }
 
 #footer {
